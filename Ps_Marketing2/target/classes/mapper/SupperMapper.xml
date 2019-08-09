@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ps.mapper.SupperMapper">
+        <insert id="add">
+            INSERT into
+                  qasys_questionnaire_t (project_name,integral)
+            VALUES
+              (#{project},#{integral})
+        </insert>
+      <insert id="addQdetail">
+            INSERT into
+                  qasys_qdetail_t (project_id,num,question)
+            VALUES
+              (#{id},#{num},#{question})
+        </insert>
+        <insert id="qasys_qresult_t">
+            INSERT into
+                  qasys_qdetail_t (mid,project_id,result)
+            VALUES
+              (#{mid},#{id},#{result})
+        </insert>
+        <select id="shopquery" resultType="com.ps.domain.core.QasysCommodityT">
+            select * from qasys_commodity_t where id=#{id}
+        </select>
+        <update id="update" parameterType="int">
+                 update  qasys_commodity_t set
+                exchangeIntegral=exchangeIntegral-1
+                where id =#{mid}
+        </update>
+    <insert id="orderupdate">
+           INSERT into
+                qasys_order_t (user_id,com_id)
+            VALUES
+            (#{uid},#{sid})
+    </insert>
+    <select id="orederquery" resultType="com.ps.domain.core.QasysOrderT">
+        select id from qasys_order_t where user_id=#{uid} and com_id=#{id}
+    </select>
+
+
+</mapper>

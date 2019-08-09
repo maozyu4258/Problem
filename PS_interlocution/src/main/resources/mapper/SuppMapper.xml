@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.ps.mapper.SuppMapper">
+
+    <insert id="adduser">
+	INSERT into
+         qasys_question_t(mid,question,integral)
+       VALUES
+          (#{mid},#{question},#{integral})
+    </insert>
+    <insert id="addAnswer">
+	INSERT into
+         qasys_answer_t(mid,qid,answer)
+       VALUES
+          (#{mid},#{qid},#{answer})
+    </insert>
+    <select id="queryQuestion" resultType="com.ps.domain.core.QasysQuestionT">
+        select * from qasys_question_t
+    </select>
+
+    <select id="queryAnswer" resultType="com.ps.domain.core.QasysAnswerT" parameterType="int">
+        select  * from qasys_answer_t where qid=#{0}
+    </select>
+    <update id="update" parameterType="int">
+         update  qasys_answer_t set
+            type=1
+        where id =#{id}
+    </update>
+    <select id="queryAnswerall" resultType="com.ps.domain.core.QasysAnswerT" parameterType="int">
+        select  * from qasys_answer_t where id=#{0}
+    </select>
+    <select id="queryQuestionall" resultType="com.ps.domain.core.QasysQuestionT" parameterType="int">
+        select * from qasys_question_t where id=#{0}
+    </select>
+</mapper>

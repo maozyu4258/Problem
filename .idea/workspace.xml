@@ -1,0 +1,1639 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="874af9bd-47b5-40a0-8b1a-1327a68646e4" name="Default Changelist" comment="积分">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/bookkeeping.NF-Gbg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/dormitory.pX3iQw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/eat.WIcBAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/loan.8MQyAA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/mybatis.03UUWg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/nutch.sghFBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/paihang.CmU40A.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/psmep.9TRgBg.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/student.O4L-jw.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources/d446c724-6eaa-4a53-82b9-c48815f98306/storage_v2/_src_/schema/user.y-s2AA.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/CommodController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QdetailController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QresultController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QuestionnaireController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/AdministerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/AnswerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/QuestionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/RegisterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/src/test/java/com/ps/ClientTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/META-INF/PS_H5_api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/context/CommodController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/context/QdetailController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/context/QresultController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/context/QuestionnaireController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/core/AdministerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/core/AnswerController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/core/QuestionController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/classes/com/ps/controller/core/RegisterController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/test-classes/META-INF/PS_H5_api.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_H5_api/target/test-classes/com/ps/ClientTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/ResultVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQdetailT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQresultT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQuestionnaireT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysAnswerT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysCommodityT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysIntegralT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysMemberT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysOrderT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysQuestionT.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QdetailInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QresultInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QuestionnaireInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/AnswerInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Commodity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/MemberInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Order.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/QuestionInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/src/test/java/com/ps/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/META-INF/PS_all.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/App.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/ResultVo.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/context/QasysQdetailT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/context/QasysQresultT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/context/QasysQuestionnaireT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysAnswerT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysCommodityT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysIntegralT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysMemberT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysOrderT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/domain/core/QasysQuestionT.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/context/QdetailInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/context/QresultInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/context/QuestionnaireInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/core/AnswerInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/core/Commodity.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/core/MemberInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/core/Order.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/classes/com/ps/service/core/QuestionInterface.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_all/target/test-classes/com/ps/AppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/java/com/ps/Interlocution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/java/com/ps/mapper/SuppMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/java/com/ps/service/Answerservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/java/com/ps/service/Questionservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/main/resources/mapper/SuppMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/src/test/java/com/ps/VipAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/com/ps/Interlocution.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/com/ps/mapper/SuppMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/com/ps/service/Answerservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/com/ps/service/Questionservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/classes/mapper/SuppMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/test-classes/META-INF/PS_interlocution.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PS_interlocution/target/test-classes/com/ps/VipAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/MarketApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/TestUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/mapper/SupperMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Commodityservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Orderservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qdetailservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qresultservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Questionnaireservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/mapper/SupperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/src/test/java/com/ps/MarketAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/META-INF/Ps_Marketing2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/MarketApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/TestUtil.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/mapper/SupperMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/service/Commodityservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/service/Orderservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/service/Qdetailservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/service/Qresultservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/com/ps/service/Questionnaireservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/classes/mapper/SupperMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/test-classes/META-INF/Ps_Marketing2.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ps_Marketing2/target/test-classes/com/ps/MarketAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/java/com/ps/VipApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/java/com/ps/mapper/SupMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/java/com/ps/service/Memberservice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/main/resources/mapper/SupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/src/test/java/com/ps/VipAppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/META-INF/VipUser.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/com/ps/VipApp.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/com/ps/mapper/SupMapper.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/com/ps/service/Memberservice.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/classes/mapper/SupMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/test-classes/META-INF/VipUser.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/VipUser/target/test-classes/com/ps/VipAppTest.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/VipUser/target/" />
+    <ignored path="$PROJECT_DIR$/PS_all/target/" />
+    <ignored path="$PROJECT_DIR$/PS_H5_api/target/" />
+    <ignored path="$PROJECT_DIR$/Ps_Marketing/target/" />
+    <ignored path="$PROJECT_DIR$/PS_interlocution/target/" />
+    <ignored path="$PROJECT_DIR$/Ps_Marketing2/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - qasys_core@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - qasys_core@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL for 5.1 - qasys_core@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="qasys_core: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Problem" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-775">
+              <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQuestionnaireT.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="44">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://D:/repository11/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ListOperations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5300">
+              <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/TimeUnit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1125">
+              <caret line="78" column="59" selection-start-line="75" selection-start-column="6" selection-end-line="78" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/VipUser/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Commodity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="125">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="775">
+              <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/MarketApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#259#260#0" expanded="true" />
+                <element signature="e#315#316#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>adduser</find>
+      <find>questionController</find>
+      <find>queryAnswer</find>
+      <find>add</find>
+      <find>query</find>
+      <find>sleep</find>
+      <find>stringStringValueOperations</find>
+      <find>leftPop</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/resources/mapper/SupMapper.xml" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQdetailT.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQresultT.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQuestionnaireT.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/java/com/ps/service/Qdetailservice.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/java/com/ps/service/Qresultservice.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QuestionnaireInterface.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QuestionnaireController.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/java/com/ps/service/Questionnaireservice.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/java/com/ps/mapper/SupperMapper.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/resources/mapper/SupperMapper.xml" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Ps_Marketing/src/main/java/com/ps/Market.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/App.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/MarketApp.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/pom.xml" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QdetailInterface.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qdetailservice.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QresultInterface.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/TestUtil.java" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/java/com/ps/service/UserService.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/RegisterController.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qresultservice.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QdetailController.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QresultController.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/AdministerController.java" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/java/com/ps/mapper/SupMapper.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Questionnaireservice.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysMemberT.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysShop.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysDingdan.java" />
+        <option value="$PROJECT_DIR$/PS_interlocution/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysCommodityT.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysOrderT.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Commodity.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Order.java" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/resources/mapper/SupMapper.xml" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Orderservice.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/mapper/SupperMapper.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/mapper/SupperMapper.xml" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/ResultVo.java" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/CommodController.java" />
+        <option value="$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/MemberInterface.java" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/java/com/ps/service/Memberservice.java" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/VipUser/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/PS_H5_api/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Commodityservice.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\repository11" />
+        <option name="userSettingsFile" value="F:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Ps_Marketing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="Ps_Marketing" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="126" />
+    <option name="y" value="96" />
+    <option name="width" value="1770" />
+    <option name="height" value="1008" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_all" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="core" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_H5_api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_interlocution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_interlocution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_interlocution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_interlocution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="PS_interlocution" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="Ps_Marketing2" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="ps" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Problem" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Problem" type="462c0819:PsiDirectoryNode" />
+              <item name="VipUser" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="database.console.LAST_STATE" value="false" />
+    <property name="last_opened_file_path" value="E:/zoop/Git/bin/git.exe" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\filesss\Problem\VipUser\src\main\resources" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ps" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\filesss\Problem\Ps_Marketing2\src\main\resources" />
+      <recent name="G:\filesss\Problem\VipUser\src\main\resources" />
+      <recent name="G:\filesss\Problem\Ps_Marketing2\src\main" />
+      <recent name="G:\filesss\Problem\Ps_Marketing2\src\main\java\com\ps" />
+      <recent name="G:\filesss\Problem\Ps_Marketing\src\main" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ps" />
+      <recent name="com.ps.service" />
+      <recent name="com.ps.mapper" />
+      <recent name="com.ps.domain" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.ps.service" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+    <option name="contentProportion" value="0.20183982" />
+  </component>
+  <component name="RunManager" selected="Spring Boot.VipApp">
+    <configuration name="Questionnaireservice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.ps.service.Questionnaireservice" />
+      <module name="Ps_Marketing2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PS_H5_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ps.Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Client" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PS_H5_api" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ps.Client" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interlocution" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="PS_interlocution" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ps.Interlocution" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MarketApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="Ps_Marketing2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ps.MarketApp" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VipApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="VipUser" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ps.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ps.VipApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Questionnaireservice" />
+      <item itemvalue="Spring Boot.Client" />
+      <item itemvalue="Spring Boot.Interlocution" />
+      <item itemvalue="Spring Boot.MarketApp" />
+      <item itemvalue="Spring Boot.VipApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.Client" />
+        <item itemvalue="Spring Boot.MarketApp" />
+        <item itemvalue="Spring Boot.VipApp" />
+        <item itemvalue="Spring Boot.Interlocution" />
+        <item itemvalue="Application.Questionnaireservice" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="874af9bd-47b5-40a0-8b1a-1327a68646e4" name="Default Changelist" comment="" />
+      <created>1563438730505</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563438730505</updated>
+      <workItem from="1563438733646" duration="4377000" />
+      <workItem from="1563494854804" duration="15145000" />
+      <workItem from="1563521668472" duration="9370000" />
+      <workItem from="1563540079823" duration="1722000" />
+      <workItem from="1563541813530" duration="57000" />
+      <workItem from="1563541879037" duration="3511000" />
+      <workItem from="1563584907654" duration="8053000" />
+      <workItem from="1563603293995" duration="1970000" />
+      <workItem from="1563605283887" duration="80000" />
+      <workItem from="1563605372097" duration="89000" />
+      <workItem from="1563605468803" duration="45000" />
+      <workItem from="1563605520453" duration="20000" />
+      <workItem from="1563605549217" duration="142000" />
+      <workItem from="1563605758457" duration="7072000" />
+      <workItem from="1563613911513" duration="61000" />
+      <workItem from="1563614009167" duration="229000" />
+      <workItem from="1563614277474" duration="822000" />
+      <workItem from="1563706790708" duration="4648000" />
+      <workItem from="1563715837121" duration="353000" />
+      <workItem from="1563716837356" duration="471000" />
+      <workItem from="1563717346527" duration="474000" />
+      <workItem from="1563717852476" duration="1649000" />
+      <workItem from="1563754006123" duration="4550000" />
+      <workItem from="1563775550451" duration="598000" />
+      <workItem from="1563803070142" duration="597000" />
+      <workItem from="1563840379430" duration="3176000" />
+      <workItem from="1563867954282" duration="9546000" />
+      <workItem from="1563926784645" duration="10770000" />
+      <workItem from="1563948359997" duration="1943000" />
+      <workItem from="1564017846521" duration="644000" />
+      <workItem from="1564038344460" duration="2259000" />
+      <workItem from="1564748535886" duration="1936000" />
+      <workItem from="1564820082261" duration="1523000" />
+      <workItem from="1564833049169" duration="8647000" />
+      <workItem from="1564880762126" duration="26736000" />
+      <workItem from="1564968316705" duration="1670000" />
+      <workItem from="1564975341512" duration="15672000" />
+      <workItem from="1565049759651" duration="597000" />
+      <workItem from="1565314958027" duration="1525000" />
+      <workItem from="1565318351459" duration="1029000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="153778000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49896908" visible="true" weight="0.27238807" />
+      <window_info id="Structure" order="1" sideWeight="0.5010309" side_tool="true" weight="0.30490404" />
+      <window_info id="JRebel" order="2" sideWeight="0.5010309" side_tool="true" weight="0.30490404" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.5010309" side_tool="true" weight="0.30490404" />
+      <window_info id="Designer" order="7" />
+      <window_info id="Web" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32925472" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.13826367" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39935064" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.48767418" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3290461" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="10" weight="0.3290461" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="JRebel Executor" order="12" />
+      <window_info anchor="bottom" id="JRebel Console" order="13" side_tool="true" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.3290461" />
+      <window_info anchor="bottom" id="Database Console" order="15" weight="0.32925472" />
+      <window_info anchor="bottom" id="Java Enterprise" order="16" weight="0.3290461" />
+      <window_info anchor="bottom" id="Messages" order="17" visible="true" weight="0.14484979" />
+      <window_info anchor="bottom" id="Run Dashboard" order="18" weight="0.03215434" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.32942432" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Database" order="6" visible="true" weight="0.015991472" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info anchor="right" id="Bean Validation" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="积分" />
+    <option name="LAST_COMMIT_MESSAGE" value="积分" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="das://d446c724-6eaa-4a53-82b9-c48815f98306/schema/qasys_core/table/qasys_commodity_t">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="das://d446c724-6eaa-4a53-82b9-c48815f98306/schema/qasys_core/table/qasys_order_t">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQresultT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysAnswerT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="49" selection-start-line="5" selection-start-column="26" selection-end-line="5" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QdetailController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/AnswerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-50">
+          <caret line="15" selection-start-line="15" selection-end-line="15" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQdetailT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-42">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/springframework/kafka/spring-kafka/2.2.7.RELEASE/spring-kafka-2.2.7.RELEASE.jar!/org/springframework/kafka/core/KafkaTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="109" column="46" selection-start-line="109" selection-start-column="46" selection-end-line="109" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QresultController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="12" selection-start-line="12" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_interlocution/src/main/java/com/ps/Interlocution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/TestUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/redisson/redisson-spring-boot-starter/3.11.1/redisson-spring-boot-starter-3.11.1.jar!/org/redisson/spring/starter/RedissonAutoConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="82" column="26" selection-start-line="82" selection-start-column="26" selection-end-line="82" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/java/com/ps/VipApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1.jar!/org/mybatis/spring/MyBatisExceptionTranslator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1.jar!/org/mybatis/spring/SqlSessionTemplate.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="205" selection-start-line="205" selection-end-line="205" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/mapper/SupperMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/resources/mapper/SupperMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="34" column="13" selection-start-line="34" selection-start-column="13" selection-end-line="34" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/apache/dubbo/dubbo/2.7.1/dubbo-2.7.1.jar!/org/apache/dubbo/rpc/protocol/dubbo/DubboInvoker.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1550">
+          <caret line="85" selection-start-line="85" selection-end-line="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/QuestionnaireController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="475">
+          <caret line="24" column="5" selection-start-line="19" selection-start-column="4" selection-end-line="24" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Order.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="9" selection-start-line="5" selection-start-column="9" selection-end-line="5" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysOrderT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="24" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysIntegralT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="2" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysCommodityT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25">
+          <caret line="5" column="52" selection-start-line="5" selection-start-column="40" selection-end-line="5" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysQuestionT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/ResultVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="12" column="53" selection-start-line="12" selection-start-column="53" selection-end-line="12" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Orderservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="26" selection-start-line="16" selection-start-column="26" selection-end-line="16" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#434#435#0" expanded="true" />
+            <element signature="e#485#486#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/context/QuestionnaireInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/java/com/ps/mapper/SupMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="26" column="18" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/resources/mapper/SupMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="23" selection-start-line="29" selection-start-column="20" selection-end-line="29" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/java/com/ps/service/Memberservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="305">
+          <caret line="58" column="48" lean-forward="true" selection-start-line="58" selection-start-column="48" selection-end-line="58" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#709#710#0" expanded="true" />
+            <element signature="e#774#775#0" expanded="true" />
+            <element signature="e#824#825#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Questionnaireservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="36" column="36" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#952#953#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qresultservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="8" selection-start-line="8" selection-end-line="8" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Qdetailservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#431#432#0" expanded="true" />
+            <element signature="e#487#488#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/core/AdministerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/MemberInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="404">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/core/QasysMemberT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/controller/context/CommodController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="246">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE.jar!/org/springframework/data/redis/core/ListOperations.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="60" column="22" lean-forward="true" selection-start-line="60" selection-start-column="22" selection-end-line="60" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/service/Commodityservice.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1275">
+          <caret line="51" column="6" selection-start-line="51" selection-start-column="6" selection-end-line="51" selection-end-column="6" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/repository11/org/springframework/data/spring-data-redis/2.1.9.RELEASE/spring-data-redis-2.1.9.RELEASE-sources.jar!/org/springframework/data/redis/core/ListOperations.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5300">
+          <caret line="230" column="7" selection-start-line="230" selection-start-column="7" selection-end-line="230" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_202/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1125">
+          <caret line="78" column="59" selection-start-line="75" selection-start-column="6" selection-end-line="78" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/VipUser/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="22" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/service/core/Commodity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="775">
+          <caret line="31" column="34" selection-start-line="31" selection-start-column="34" selection-end-line="31" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Ps_Marketing2/src/main/java/com/ps/MarketApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_H5_api/src/main/java/com/ps/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#259#260#0" expanded="true" />
+            <element signature="e#315#316#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-775">
+          <caret line="23" column="11" lean-forward="true" selection-start-line="23" selection-start-column="11" selection-end-line="23" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PS_all/src/main/java/com/ps/domain/context/QasysQuestionnaireT.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PS_interlocution</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

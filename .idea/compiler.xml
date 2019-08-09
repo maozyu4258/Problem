@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="PS_H5_api" />
+        <module name="PS_all" />
+        <module name="Ps_Marketing2" />
+        <module name="PS_interlocution" />
+        <module name="VipUser" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Ps_Marketing" target="1.7" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="PS_H5_api" options="-parameters" />
+      <module name="PS_all" options="-parameters" />
+      <module name="PS_interlocution" options="-parameters" />
+      <module name="Ps_Marketing" options="-parameters" />
+      <module name="Ps_Marketing2" options="-parameters" />
+      <module name="VipUser" options="-parameters" />
+    </option>
+  </component>
+</project>
